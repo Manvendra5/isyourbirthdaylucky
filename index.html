@@ -7,26 +7,41 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>Is your birthday lucky ?</h1>
     <main>
-      <h1>Is your birthday lucky ?</h1>
       <label for="date-label">Date of Birth</label>
       <input type="date" id="date-of-birth" />
 
       <label for="lucky-number-label">Your Lucky Number</label>
-      <input type="date" id="lucky-number" />
+      <input type="number" id="lucky-number" placeholder="Lucky Number" />
 
       <button id="btn-check">Check Number</button>
-
-      <p id="message"></p>
+      <p id="output-message"></p>
     </main>
 
-    <footer>
-      <ul>
-        <li>Github</li>
-        <li>LinkedIn</li>
-        <li>Twitter</li>
-        <li>Instagram</li>
+    <footer class="footer">
+      <div class="footer-header">© | 2021 | manvendrasinghbais</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/_Manvendra_" target="_blank"
+            ><img class="link-image" src="./images/twitter.png" alt=""
+          /></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/Manvendra5" target="_blank"
+            ><img class="link-image" src="./images/github.png" alt=""
+          /></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://linkedin.com/in/manvendra-singh-bais"
+            target="_blank"
+            ><img class="link-image" src="./images/linkedin.png" alt=""
+          /></a>
+        </li>
       </ul>
+      <p><strong>Privacy Notice: </strong> We don't store your data.</p>
     </footer>
   </body>
   <script src="./app.js"></script>
