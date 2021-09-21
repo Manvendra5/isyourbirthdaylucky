@@ -20,7 +20,8 @@ main {
 
 h1 {
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
   margin: auto;
 }
 
