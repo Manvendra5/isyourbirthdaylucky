@@ -23,13 +23,16 @@ function sumOfDigits(dateOfBirth) {
 }
 
 
+
 function checkIfLucky() {
     hideMessage();
     const dateOfBirth = dob.value;
     const theLuckyNumber = Number(luckyNumber.value);
     const sum = sumOfDigits(dateOfBirth);
 
-    if (Number.isInteger(theLuckyNumber) && theLuckyNumber !== 0 && theLuckyNumber > 0 && typeof(dateOfBirth) != "undefined") {
+    console.log(sum);
+
+    if (Number.isInteger(theLuckyNumber) && theLuckyNumber !== 0 && theLuckyNumber > 0 && sum !== 0){
         if ((sum % luckyNumber.value) === 0) {
             showMessage("Yay! Your birthday is lucky");
         }
