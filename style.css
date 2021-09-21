@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@200&family=Manrope:wght@300&family=Oxygen:wght@300;400&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Oxygen", sans-serif;
   margin: 0;
   color: white;
   background-color: #35dc9b;
@@ -14,21 +14,23 @@ body {
 main {
   width: 27vw;
   height: 50vh;
-  padding-top: 4rem;
+  padding-top: 2rem;
   margin: auto;
 }
 
 h1 {
   text-align: center;
+  padding-top: 4rem;
   margin: auto;
 }
 
 main input {
   display: block;
   border: none;
-  padding: 20px;
+  margin-bottom: 1rem;
+  padding: 15px;
   width: 100%;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 main label {
@@ -40,10 +42,78 @@ main label {
 
 #btn-check {
   display: block;
+  font-size: large;
   font-family: inherit;
   border: none;
   background: #1aaf75;
   color: white;
   padding: 16px 40px;
   margin: auto;
+}
+
+#output-message {
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .social-links {
+  padding-inline-start: 0px;
+}
+
+.link {
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0rem 0.8rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  display: inline-block;
+}
+
+.link-without-decoration {
+  text-decoration: none;
+  color: white;
+}
+
+.link-image {
+  width: 35px;
+}
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-block-end: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.list-item-container {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
