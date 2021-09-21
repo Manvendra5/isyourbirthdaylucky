@@ -34,10 +34,10 @@ function checkIfLucky() {
 
     if (Number.isInteger(theLuckyNumber) && theLuckyNumber !== 0 && theLuckyNumber > 0 && sum !== 0){
         if ((sum % luckyNumber.value) === 0) {
-            showMessage("Yay! Your birthday is lucky");
+            showMessage("Yay! Your birthday is lucky 🎉");
         }
         else {
-            showMessage("Not so lucky, you are!");
+            showMessage("Not so lucky, you are! ❌");
         }
     }
     else {
